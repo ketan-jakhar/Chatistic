@@ -55,7 +55,7 @@ const outputMessage = ({ username, time, text }) => {
 		username === "Chatistic Bot"
 			? '<i class="fas fa-robot"></i>'
 			: '<i class="fas fa-user"></i>'
-	} ${username} <span>${time}</span></p>
+	} ${username} <span><small>${time}</small></span></p>
 						<p class="text">
 							${text}
                         </p>`;

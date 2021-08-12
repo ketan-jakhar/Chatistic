@@ -81,6 +81,7 @@ a {
 .chat-main {
 	display: grid;
 	grid-template-columns: 1fr 3fr;
+	min-height: 55vh;
 }
 
 .chat-sidebar {
@@ -242,5 +243,20 @@ join-main select:hover {
 
 	.chat-sidebar {
 		display: none;
+	}
+}
+
+@media (max-width: 576px) {
+	.join-container {
+		width: 100%;
+	}
+}
+
+@media (max-width: 425px) {
+	.icon-d {
+		display: none;
+	}
+	.chat-container {
+		width: 100%;
 	}
 }
