@@ -1,0 +1,19 @@
+{
+	"name": "chatistic",
+	"version": "1.0.0",
+	"description": "A real-time chat room.",
+	"main": "app.js",
+	"scripts": {
+		"start": "node app",
+		"dev": "nodemon app"
+	},
+	"keywords": [],
+	"author": "Ketan Jakhar",
+	"license": "MIT",
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"express": "^4.17.1",
+		"moment": "^2.29.1",
+		"socket.io": "^4.1.3"
+	}
+}
