@@ -1,10 +1,12 @@
-// Users Array List
+//Add users to array list
 const users = [];
 
 // Join user to chat
 const userJoin = (id, username, room) => {
 	const user = { id, username, room };
+
 	users.push(user);
+
 	return user;
 };
 
@@ -22,17 +24,9 @@ const userLeave = (id) => {
 	}
 };
 
-//Get room users
+// Get room users
 const getRoomUsers = (room) => {
 	return users.filter((user) => user.room === room);
-};
-
-// Check unique user
-const uniqueUser = (username) => {
-	users.map((user) => console.log(user));
-	console.log(users.some((user) => user.username === username));
-
-	return users.some((user) => user.username === username);
 };
 
 module.exports = {
@@ -40,5 +34,4 @@ module.exports = {
 	getCurrentUser,
 	userLeave,
 	getRoomUsers,
-	uniqueUser,
 };

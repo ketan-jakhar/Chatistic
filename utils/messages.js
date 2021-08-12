@@ -8,4 +8,5 @@ const formatMessage = (username, text) => {
 		date: moment().format("d-m-Y"),
 	};
 };
+
 module.exports = formatMessage;
