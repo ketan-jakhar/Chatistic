@@ -48,7 +48,3 @@ https://chatistic-v1.herokuapp.com/
 ## Authors
 
 * **Ketan Jakhar**
-
-## License
-
-This project is licensed under the MIT License
